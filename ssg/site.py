@@ -1,5 +1,5 @@
 import sys
-import pathlib from Path
+from pathlib import Path
 
 
 
@@ -22,5 +22,5 @@ class Site():
             elif path.is_file():
                 self.run_parser(path)
 
-                
+
 
