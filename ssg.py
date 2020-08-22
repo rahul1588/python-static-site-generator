@@ -1,5 +1,5 @@
 import typer
-from ssg.site import site
+from ssg.site import Site
 import ssg.parsers
 
 
